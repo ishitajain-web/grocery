@@ -20,9 +20,7 @@ const NavBar = () => {
         <Button variant="text" sx={{ color: "black" }} href='/Products'>About Us</Button>
         <TextField size="small" placeholder="Search" />
         <ShoppingCartOutlinedIcon fontSize="medium" sx={{ color: 'black' }} />
-        {/* <ShoppingCartIcon color="primary"/> */}
-        {/* <AccountCircleIcon color='secondary' fontSize="large" /> */}
-        <Button variant="contained" size="small" sx={{ backgroundColor: '#238f67' }} >login</Button>
+        <Button variant="contained" size="small" sx={{ backgroundColor: '#238f67' }} href='/login'>login</Button>
         <Button variant="outlined" size="small" sx={{borderColor:'#238f67', color:'#238f67'}}>signup</Button>
       </Box>
     </Box>
